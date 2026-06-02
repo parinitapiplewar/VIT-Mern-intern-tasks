@@ -1,0 +1,207 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Segoe UI',sans-serif;
+}
+
+body{
+    background:#f5f7fa;
+}
+
+nav{
+    background:#002855;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:15px 50px;
+}
+
+.logo{
+    color:white;
+    font-size:30px;
+    font-weight:bold;
+}
+
+nav ul{
+    list-style:none;
+    display:flex;
+}
+
+nav ul li{
+    margin-left:25px;
+}
+
+nav ul li a{
+    color:white;
+    text-decoration:none;
+    font-size:18px;
+    transition:0.3s;
+}
+
+nav ul li a:hover{
+    color:#00b4d8;
+}
+
+.hero{
+    height:85vh;
+    background:url("VIT_IMAGE.webp") center/cover;
+    position:relative;
+}
+
+.overlay{
+    position:absolute;
+    inset:0;
+    background:rgba(0,0,0,0.55);
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    color:white;
+    text-align:center;
+}
+
+.overlay h1{
+    font-size:55px;
+}
+
+.overlay p{
+    margin-top:15px;
+    font-size:24px;
+}
+
+.section{
+    width:90%;
+    margin:auto;
+    padding:50px 0;
+}
+
+.section h2{
+    text-align:center;
+    margin-bottom:25px;
+    color:#002855;
+}
+
+.media{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    gap:15px;
+}
+
+video{
+    width:800px;
+    max-width:100%;
+    border-radius:10px;
+}
+
+.cards{
+    display:flex;
+    gap:30px;
+    justify-content:center;
+    flex-wrap:wrap;
+}
+
+.card{
+    width:350px;
+    background:white;
+    padding:25px;
+    border-radius:10px;
+    box-shadow:0 5px 15px rgba(0,0,0,.15);
+}
+
+.card h3{
+    color:#002855;
+    margin-bottom:15px;
+}
+
+.card ul,
+.card ol{
+    padding-left:20px;
+}
+
+table{
+    width:100%;
+    border-collapse:collapse;
+    background:white;
+    box-shadow:0 5px 15px rgba(0,0,0,.1);
+}
+
+th{
+    background:#002855;
+    color:white;
+}
+
+th,td{
+    border:1px solid #ddd;
+    padding:15px;
+    text-align:center;
+}
+
+tr:nth-child(even){
+    background:#f0f4f8;
+}
+
+.form-box{
+    width:700px;
+    margin:auto;
+    background:white;
+    padding:30px;
+    border-radius:10px;
+    box-shadow:0 5px 15px rgba(0,0,0,.15);
+}
+
+.form-group{
+    margin-bottom:18px;
+}
+
+label{
+    display:block;
+    margin-bottom:5px;
+    font-weight:bold;
+}
+
+input,
+select,
+textarea{
+    width:100%;
+    padding:12px;
+    border:1px solid #ccc;
+    border-radius:5px;
+}
+
+textarea{
+    height:120px;
+}
+
+.gender{
+    display:flex;
+    gap:20px;
+}
+
+.gender input{
+    width:auto;
+}
+
+.btn{
+    width:100%;
+    padding:12px;
+    background:#002855;
+    color:white;
+    border:none;
+    border-radius:5px;
+    font-size:18px;
+    cursor:pointer;
+}
+
+.btn:hover{
+    background:#004a99;
+}
+
+footer{
+    background:#002855;
+    color:white;
+    text-align:center;
+    padding:15px;
+    margin-top:30px;
+}
