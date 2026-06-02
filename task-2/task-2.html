@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>User Information Form</title>
+
+    <style>
+        body{
+            font-family: Arial, sans-serif;
+            background:#f2f2f2;
+        }
+
+        .container{
+            width: 420px;
+            margin: 40px auto;
+            background: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 8px rgba(0,0,0,0.2);
+        }
+
+        fieldset{
+            padding: 10px;
+        }
+
+        legend{
+            font-size: 28px;
+            font-weight: bold;
+        }
+
+        label{
+            display:block;
+            margin-top:15px;
+            margin-bottom:5px;
+            font-size:18px;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        input[type="password"],
+        input[type="date"],
+        textarea{
+            width:100%;
+            padding:10px;
+            border:1px solid #ccc;
+            border-radius:4px;
+            box-sizing:border-box;
+        }
+
+        .gender{
+            margin-top:10px;
+        }
+
+        .gender label{
+            display:inline;
+            margin-right:20px;
+            font-size:18px;
+        }
+
+        textarea{
+            height:70px;
+            resize:none;
+        }
+
+        button{
+            margin-top:20px;
+            padding:10px 25px;
+            font-size:18px;
+            border:2px solid black;
+            background:white;
+            border-radius:5px;
+            cursor:pointer;
+        }
+
+        button:hover{
+            background:#e6e6e6;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <form>
+
+        <fieldset>
+            <legend>User personal information</legend>
+
+            <label>Enter your full name</label>
+            <input type="text" value="Rahul Kumar">
+
+            <label>Enter your email</label>
+            <input type="email" value="geeks@12345gmail.com">
+
+            <label>Enter your password</label>
+            <input type="password">
+
+            <label>Confirm your password</label>
+            <input type="password">
+
+            <label>Enter your gender</label>
+
+            <div class="gender">
+                <input type="radio" name="gender" checked> Male
+
+                <input type="radio" name="gender"> Female
+
+                <input type="radio" name="gender"> Others
+            </div>
+
+            <label>Enter your Date of Birth</label>
+            <input type="date">
+
+            <label>Enter your Address:</label>
+            <textarea>Noida Sector 137</textarea>
+
+            <button type="submit">submit</button>
+
+        </fieldset>
+
+    </form>
+
+</div>
+
+</body>
+</html>
