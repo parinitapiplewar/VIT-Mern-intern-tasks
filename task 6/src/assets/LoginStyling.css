@@ -1,0 +1,36 @@
+#main{
+    width: 100vw;
+    height: 100Vh;
+     display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#loginPanel{
+    display: flex;
+    align-items: start;
+    justify-content:center;
+    padding-top: 50px;
+    border-radius: 20px 40px;
+    
+    
+    width:500px;
+    height: 400px;
+    background-image:linear-gradient(rgb(130, 57, 194),rgb(220, 127, 15));
+    
+}
+
+button{
+    width: 100px;
+    height: 40px;
+    margin: 10px;
+}
+#buttondiv{
+    display: flex;
+    justify-content:center ;
+    flex-wrap: wrap;
+   
+}
+button{
+    border-radius: 10px;
+}
