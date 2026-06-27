@@ -1,0 +1,20 @@
+
+*{margin:0;padding:0;box-sizing:border-box;}
+nav{
+background:linear-gradient(135deg,#232f72,#831c91);
+padding:15px;
+}
+nav ol{
+display:flex;
+justify-content:center;
+gap:35px;
+list-style:none;
+}
+nav li{
+padding:10px 20px;
+border-radius:25px;
+background:#d552a3;
+transition:.3s;
+}
+nav li:hover{transform:translateY(-3px);}
+nav a{color:white;text-decoration:none;font-weight:bold;}
